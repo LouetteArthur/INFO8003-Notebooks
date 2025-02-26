@@ -126,7 +126,7 @@ def save_caronthehill_image(position, speed, out_file=None):
     loc_width = CANVAS_WIDTH - WIDTH_SPEED - LOC_WIDTH_FROM_BOTTOM
     loc_height = (CANVAS_HEIGHT - LOC_HEIGHT_FROM_BOTTOM + THICKNESS_SPEED_LINE 
                  if speed < 0 else CANVAS_HEIGHT - LOC_HEIGHT_FROM_BOTTOM - height_speed)
-    rect = (loc_width, loc_height, WIDTH_SPEED, height_speed)
+    rect = (int(loc_width), int(loc_height), int(WIDTH_SPEED), int(height_speed))
     surf.fill(color_speed, rect)
 
     if out_file is not None:
