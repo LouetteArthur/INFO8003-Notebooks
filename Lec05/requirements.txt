@@ -16,7 +16,7 @@ networkx==3.3
 numpy==2.2.3
 packaging==24.2
 pandas==2.2.3
-pillow==11.1.0
+pillow==10.4.0
 pygame==2.6.1
 pyparsing==3.2.1
 python-dateutil==2.9.0.post0
@@ -33,4 +33,5 @@ tyro==0.9.18
 tzdata==2025.1
 wandb==0.19.8
 wheel==0.45.1
+moviepy==2.1.2
 
